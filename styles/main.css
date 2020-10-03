@@ -205,7 +205,7 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .tabla {padding: 8px 5px 4px;
     margin: 0;}
 	
-.menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding:0; font-weight: 500;}
+.menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:20px; border-bottom: none; line-height: 100%; padding:0; font-weight: 500;}
 .price {position: relative;
  font-family: 'M PLUS 1p', sans-serif;
 
