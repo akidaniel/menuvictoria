@@ -39,7 +39,7 @@ background:url(https://akidaniel.github.io/menucatalina/imagenes/fondo.jpg)}
 
 
 
-.SUBTITULO{font-family: 'La-Jolla-ES';
+.SUBTITULO{font-family: 'Lovers Quarrel', cursive;
 font-size: 2.5rem;
 text-align:center;
 line-height: 2.5rem;
@@ -164,7 +164,7 @@ margin:2rem 0 1rem 0;
 width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
-.menuitem { font-family: 'M PLUS 1p', sans-serif; font-weight: bold;
+.menuitem { font-family: 'Lovers Quarrel', cursive; font-weight: bold;
  font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
 }
 
