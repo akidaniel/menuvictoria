@@ -37,15 +37,6 @@ background:url(https://akidaniel.github.io/menucatalina/imagenes/fondo.jpg)}
 /*TEXTOS*/
 
 
-@font-face {
-    font-family: 'La-Jolla-ES';
-    src:url('La-Jolla-ES.ttf.woff') format('woff'),
-        url('La-Jolla-ES.ttf.svg#La-Jolla-ES') format('svg'),
-        url('La-Jolla-ES.ttf.eot'),
-        url('La-Jolla-ES.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
-}
 
 
 .SUBTITULO{font-family: 'La-Jolla-ES';
