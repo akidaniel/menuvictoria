@@ -23,7 +23,21 @@ text-align:left;
 
 .pagina {box-sizing:border-box;
 padding:0;
-background:url(https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg)}
+background:url(https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg);
+
+background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(71,5,5,0) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg');
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0.5)), color-stop(8%, rgba(71,5,5,0))), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg');
+
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(71,5,5,0) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg');
+
+background: -o-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(71,5,5,0) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg');
+
+background: -ms-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(71,5,5,0) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg');
+
+background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(71,5,5,0) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg');
+
+}
  
 .wrapper {overflow-x:hidden; position: relative; padding: 0 3px;}
 
@@ -66,12 +80,12 @@ width:100%;}
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME, .WHATS {
 text-indent: unset;
-border: 0.15rem solid #bc8f8f;
+border: 0.15rem solid #914F58;
 border-radius: 8px;
 font-family: "Font Awesome 5 Brands";
 display: inline-block;
 padding-right: 0.35rem;
-color: #bc8f8f;
+color: #914F58;
 text-decoration:none;
 font-size: 1.5rem;
 line-height: 2.5rem;
@@ -168,9 +182,11 @@ margin:2rem 0 1rem 0;
 width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; /*-moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px;*/}
-.menuitem { font-family: 'Euphoria Script', cursive; font-size: 3rem; color: #bc8f8f; text-align: center; margin: 0 auto; background: rgb(43,26,35,0.5);
+.menuitem { font-family: 'Euphoria Script', cursive; font-size: 3rem; color: #bc8f8f; text-align: center; margin: 0 auto -0.5rem; background: rgb(43,26,35,0.5);
     padding: 5px;
-    line-height: 100%;
+    line-height: 100%; -moz-border-radius: 12px 12px 0 0;
+    -webkit-border-radius: 12px 12px 0 0;
+    border-radius: 12px 12px 0 0;
 }
 
 i {color: #bc8f8f;}
@@ -194,7 +210,10 @@ color:#bc8f8f;
 
 
 
-.dish-2 {text-align: center; margin: 1.5rem auto 0; width:49%; z-index:10;}
+.dish-2 {text-align: center; margin: 0.4rem 0.3rem 0.05rem; width:49%; z-index:10; background: rgb(245,162,166,0.25);
+    padding: 0.5rem 0.5rem 1rem; -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px; -moz-box-shadow: 0 0 0pt 5pt #4F242D; -webkit-box-shadow: 0 0 0pt 5pt #4F242D; box-shadow: 0 0 0pt 5pt #4F242D;}
 .dish-3 {text-align: center; margin: 1.5rem auto 0; width:32%; z-index:10;}
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
 .destacado {font-family: 'M PLUS 1p', sans-serif;
