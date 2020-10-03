@@ -23,19 +23,19 @@ text-align:left;
 
 .pagina {box-sizing:border-box;
 padding:0;
-background:url(https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg);
+background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6vd5-2PAmSjBLh6irYMecD3mNhFsEXP_qtA&usqp=CAU);
 
-background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(71,5,5,0) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg');
+background: -moz-linear-gradient(top, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6vd5-2PAmSjBLh6irYMecD3mNhFsEXP_qtA&usqp=CAU');
 
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0.5)), color-stop(8%, rgba(71,5,5,0))), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg');
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(1,58,93,1)), color-stop(8%, rgba(146,200,213,0.5))), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6vd5-2PAmSjBLh6irYMecD3mNhFsEXP_qtA&usqp=CAU');
 
-background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(71,5,5,0) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg');
+background: -webkit-linear-gradient(top, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6vd5-2PAmSjBLh6irYMecD3mNhFsEXP_qtA&usqp=CAU');
 
-background: -o-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(71,5,5,0) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg');
+background: -o-linear-gradient(top, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6vd5-2PAmSjBLh6irYMecD3mNhFsEXP_qtA&usqp=CAU');
 
-background: -ms-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(71,5,5,0) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg');
+background: -ms-linear-gradient(top, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6vd5-2PAmSjBLh6irYMecD3mNhFsEXP_qtA&usqp=CAU');
 
-background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(71,5,5,0) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.jpg');
+background: linear-gradient(to bottom, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6vd5-2PAmSjBLh6irYMecD3mNhFsEXP_qtA&usqp=CAU');
 
 }
  
@@ -58,10 +58,10 @@ font-size: 2rem;
 text-align:center;
 line-height: 2.5rem;
 margin: 0 0 1rem;
-color: #e6ab91;
+color: #e0ffff;;
 letter-spacing: 0.5rem;
 text-transform: uppercase;
-text-shadow: 0 0 1rem #000000;
+text-shadow: 0 0 1rem #001929;
 }
 
 
@@ -80,12 +80,12 @@ width:100%;}
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME, .WHATS {
 text-indent: unset;
-border: 0.15rem solid #914F58;
+border: 0.15rem solid #e0ffff;
 border-radius: 8px;
 font-family: "Font Awesome 5 Brands";
 display: inline-block;
 padding-right: 0.35rem;
-color: #914F58;
+color: #e0ffff;
 text-decoration:none;
 font-size: 1.5rem;
 line-height: 2.5rem;
@@ -182,14 +182,18 @@ margin:2rem 0 1rem 0;
 width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; /*-moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px;*/}
-.menuitem {font-family: 'Euphoria Script', cursive; font-size: 3rem; color: #bc8f8f; text-align: center; margin: 0 -0.1rem -0.5rem; background: rgb(43,26,35,0.5);
+.menuitem {font-family: 'Euphoria Script', cursive; font-size: 3rem; 
+color: #e0ffff;
+    text-align: center;
+    margin: 0 -0.05rem -0.65rem;
+    background: rgb(1,58,93,0.5);
     padding: 5px;
     -moz-border-radius: 12px 12px 0 0;
     -webkit-border-radius: 12px 12px 0 0;
     border-radius: 12px 12px 0 0;
 }
 
-i {color: #bc8f8f;}
+i {color: #e0ffff;}
 .ultimalinea {border:none}
 .menudevinos, .menudepostres {display:none}
 .bebidas, .desserts  {marging: 0rem!important; margin-top:-1.5rem!important;}
@@ -210,10 +214,13 @@ color:#bc8f8f;
 
 
 
-.dish-2 {text-align: center; margin: 0.4rem 0.2rem 0.05rem; width:49%; z-index:10; background: rgb(245,162,166,0.25);
+.dish-2 {text-align: center; margin: 0.2rem 0.1rem 0.05rem; width:49%; z-index:10;
     padding: 0.5rem 0.5rem 1rem; -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
-    border-radius: 12px; -moz-box-shadow: 0 0 0pt 5pt #4F242D; -webkit-box-shadow: 0 0 0pt 5pt #4F242D; box-shadow: 0 0 0pt 5pt #4F242D;}
+    border-radius: 12px; 
+	-moz-box-shadow: 0 0 0pt 2.5pt #527D91; 
+	-webkit-box-shadow: 0 0 0pt 2.5pt #527D91; 
+	box-shadow: 0 0 0pt 2.5pt #527D91;}
 .dish-3 {text-align: center; width:32%; z-index:10; margin: 0.4rem 0.35rem 0.05rem; width:49%; z-index:10; background: rgb(245,162,166,0.25);
     padding: 0.5rem 0.5rem 1rem; -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
@@ -222,14 +229,14 @@ color:#bc8f8f;
 .dish-1 {width:99%;}
 .destacado {font-family: 'M PLUS 1p', sans-serif;
 text-align:left;
-font-size:17px; font-weight: normal; text-align:center; line-height: normal;}
+font-size:17px; font-weight: normal; text-align:center; line-height: normal; color: #013a5d;}
 .descr {font-family: 'M PLUS 1p', sans-serif; font-weight: normal;
 font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 }
 .tabla {padding: 8px 5px 4px;
     margin: 0;}
 	
-.menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:20px; border-bottom: none; line-height: 100%; padding:0; font-weight: 500; letter-spacing: -0.03rem; background: none;}
+.menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:20px; border-bottom: none; line-height: 100%; padding:0; font-weight: 500; letter-spacing: -0.03rem; background: none; color:#1E5B77;}
 .price {position: relative;
  font-family: 'M PLUS 1p', sans-serif;
  font-size: 15px; /*width:fit-content;-moz-border-radius: 20px;
