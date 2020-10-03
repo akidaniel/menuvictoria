@@ -182,9 +182,9 @@ margin:2rem 0 1rem 0;
 width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; /*-moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px;*/}
-.menuitem { font-family: 'Euphoria Script', cursive; font-size: 3rem; color: #bc8f8f; text-align: center; margin: 0 auto -0.5rem; background: rgb(43,26,35,0.5);
+.menuitem {font-family: 'Euphoria Script', cursive; font-size: 3rem; color: #bc8f8f; text-align: center; margin: 0 auto -0.5rem; background: rgb(43,26,35,0.5);
     padding: 5px;
-    line-height: 100%; -moz-border-radius: 12px 12px 0 0;
+    -moz-border-radius: 12px 12px 0 0;
     -webkit-border-radius: 12px 12px 0 0;
     border-radius: 12px 12px 0 0;
 }
@@ -214,8 +214,12 @@ color:#bc8f8f;
     padding: 0.5rem 0.5rem 1rem; -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
     border-radius: 12px; -moz-box-shadow: 0 0 0pt 5pt #4F242D; -webkit-box-shadow: 0 0 0pt 5pt #4F242D; box-shadow: 0 0 0pt 5pt #4F242D;}
-.dish-3 {text-align: center; margin: 1.5rem auto 0; width:32%; z-index:10;}
+.dish-3 {text-align: center; width:32%; z-index:10; margin: 0.4rem 0.35rem 0.05rem; width:49%; z-index:10; background: rgb(245,162,166,0.25);
+    padding: 0.5rem 0.5rem 1rem; -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px; -moz-box-shadow: 0 0 0pt 5pt #4F242D; -webkit-box-shadow: 0 0 0pt 5pt #4F242D; box-shadow: 0 0 0pt 5pt #4F242D;}
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
+.dish-1 {width:99%;}
 .destacado {font-family: 'M PLUS 1p', sans-serif;
 text-align:left;
 font-size:17px; font-weight: normal; text-align:center; line-height: normal;}
@@ -277,8 +281,17 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 		  content: "\2617"; color:blue; margin-left: -1.5em; z-index:-9999; display:none;
 }
 
+.menues {background: rgb(43,26,35,0.5);
+    padding: 5px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;}
 	
+.menueslight {background: rgb(245,162,166,0.25);}
 
+	
+.menues .menuitem {margin-bottom: 0.5rem;}
+	
 /*LANGUE*/
 .BOTONERA, .cambiocontenido {display: -webkit-box;
 display: -moz-box;
@@ -358,12 +371,13 @@ padding-bottom: 1rem;
 
 .expandish .dishphoto {margin: 15px 0 -10px; text-align: center;}
 
+.expandish .menuitem {color:#4F242E;}
 
 .TITLE {-moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;}
 
-.-L {text-align:left;}
+.-L {padding-bottom:0.8rem;}
 .-C {text-align:center!important; }
 .cartadevinos.TITLE, .cartadepostres.TITLE {margin: 6rem auto 0;}
 .wine {text-align: center!important;}
@@ -511,7 +525,7 @@ left:0;}
 .menuitemcontainer { /*-moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; */}
 .UK, .ES, .FR, .CT {margin: 0 1rem; width: 3rem;}
 .BOTONERA {top: 4.15rem;}
-.expandish {min-width: 98%;}
+.expandish {min-width: 95%;}
 /**FONDO DE COLOR**/
 .layer {background-color: rgba(80, 40, 55, 0.7);
     position: absolute;
@@ -546,9 +560,8 @@ left:0;}
 .FINDUS {top:0;}
 
 .topimage img {
-    float: none;
-    margin: 0 auto;
-    max-width: 100%;
+margin: 1rem auto 0.15rem;
+max-width: 90%;
 }
 
 }
