@@ -62,12 +62,12 @@ width:100%;}
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME, .WHATS {
 text-indent: unset;
-border: 0.15rem solid #9d787a;
+border: 0.15rem solid #bc8f8f;
 border-radius: 8px;
 font-family: "Font Awesome 5 Brands";
 display: inline-block;
 padding-right: 0.35rem;
-color: #9d787a;
+color: #bc8f8f;
 text-decoration:none;
 font-size: 1.5rem;
 line-height: 2.5rem;
@@ -164,7 +164,7 @@ margin:2rem 0 1rem 0;
 width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; /*-moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px;*/}
-.menuitem { font-family: 'Lovers Quarrel', cursive; font-size: 4rem; color: #9d787a; text-align: center; margin: 0 auto; background: rgb(43,26,35,0.5);
+.menuitem { font-family: 'Lovers Quarrel', cursive; font-size: 4rem; color: #bc8f8f; text-align: center; margin: 0 auto; background: rgb(43,26,35,0.5);
     padding-top: 5px;
     line-height: 90%;
 }
@@ -182,8 +182,8 @@ background: ;
 flex: 1;
 font-family: 'M PLUS 1p', sans-serif;
 font-size:18px;
-padding: 5px 5px 2px 5px; border-bottom: 2px dotted #ccc;
-color:#454545;
+padding: 5px 5px 2px 5px; border-bottom: 2px dotted #bc8f8f;
+color:#bc8f8f;
 }
 
 .ultimalinea {border:none}
