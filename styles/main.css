@@ -44,9 +44,10 @@ font-size: 2rem;
 text-align:center;
 line-height: 2.5rem;
 margin: 0 0 1rem;
-color: #D9C9AC;
+color: #e6ab91;
 letter-spacing: 0.5rem;
 text-transform: uppercase;
+text-shadow: 0 0 1rem #000000;
 }
 
 
@@ -167,7 +168,7 @@ margin:2rem 0 1rem 0;
 width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; /*-moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px;*/}
-.menuitem { font-family: 'Lovers Quarrel', cursive; font-size: 4rem; color: #bc8f8f; text-align: center; margin: 0 auto; background: rgb(43,26,35,0.5);
+.menuitem { font-family: 'Euphoria Script', cursive; font-size: 3rem; color: #bc8f8f; text-align: center; margin: 0 auto; background: rgb(43,26,35,0.5);
     padding: 5px;
     line-height: 100%;
 }
