@@ -178,7 +178,7 @@ width:100%;}
 .bebidas, .desserts  {marging: 0rem!important; margin-top:-2.5rem!important;}
 
 
-.topimage {padding: 0.5rem 0 0; margin-bottom: 1rem; background: none; line-height:none;}
+.topimage {padding: 0.5rem 0 0; background: none; line-height:none;}
 .topimage img {max-width:590px;}
 .principal {
 background: ;
@@ -489,7 +489,7 @@ left:0;}
 @media only screen and (max-width: 900px) {
 
 .menuitemcontainer { /*-moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; */}
-.UK, .ES, .FR, .CT {margin: 0 1rem; width: 3rem; height:5rem;}
+.UK, .ES, .FR, .CT {margin: 0 1rem; width: 3rem;}
 .BOTONERA {top: 4.15rem;}
 .expandish {min-width: 98%;}
 /**FONDO DE COLOR**/
