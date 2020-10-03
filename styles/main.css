@@ -40,11 +40,14 @@ background:url(https://akidaniel.github.io/menuvictoria/imagenes/fondovictoria.j
 
 
 .SUBTITULO{font-family: 'M PLUS 1p', sans-serif;
-font-size: 3rem;
+font-size: 2rem;
 text-align:center;
 line-height: 2.5rem;
 margin: 0 0 1rem;
-font-weight: bold;}
+color: #D9C9AC;
+letter-spacing: 0.5rem;
+text-transform: uppercase;
+}
 
 
 /*FIN TEXTOS*/
@@ -165,8 +168,8 @@ width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; /*-moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px;*/}
 .menuitem { font-family: 'Lovers Quarrel', cursive; font-size: 4rem; color: #bc8f8f; text-align: center; margin: 0 auto; background: rgb(43,26,35,0.5);
-    padding-top: 5px;
-    line-height: 90%;
+    padding: 5px;
+    line-height: 100%;
 }
 
 
@@ -196,7 +199,7 @@ color:#bc8f8f;
 .destacado {font-family: 'M PLUS 1p', sans-serif;
 text-align:left;
 font-size:17px; font-weight: normal; text-align:center; line-height: normal;}
-.descr {font-family: 'M PLUS 1p', sans-serif; font-weight: normal; color: #71585b;
+.descr {font-family: 'M PLUS 1p', sans-serif; font-weight: normal;
 font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 }
 .tabla {padding: 8px 5px 4px;
