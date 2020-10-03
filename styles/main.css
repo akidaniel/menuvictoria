@@ -175,9 +175,8 @@ width:100%;}
 .bebidas, .desserts  {marging: 0rem!important; margin-top:-2.5rem!important;}
 
 
-.topimage {background-position: center center; -moz-border-top-left-radius: 10px; -webkit-border-top-left-radius: 10px; border-top-left-radius:10px; -moz-border-top-right-radius: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius:10px; border-bottom: 1px solid #BE9A91; padding: 0.5rem 0 0; margin-bottom: 1rem; background: none; line-height:none;}
-.topimage img {float:left; margin: 0 0.5rem 0.5rem 0; }
-
+.topimage {padding: 0.5rem 0 0; margin-bottom: 1rem; background: none; line-height:none;}
+.topimage img {max-width:590px;}
 .principal {
 background: ;
 flex: 1;
@@ -522,6 +521,12 @@ left:0;}
 	right:unset;
     }
 .FINDUS {top:0;}
+
+.topimage img {
+    float: none;
+    margin: 0 auto;
+    max-width: 400px;
+}
 
 }
 
