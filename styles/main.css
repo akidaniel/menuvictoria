@@ -163,8 +163,10 @@ z-index: 9500;
 margin:2rem 0 1rem 0;
 width:100%;}
 
-.menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
-.menuitem { font-family: 'Lovers Quarrel', cursive; font-size: 4rem; color: #9d787a; text-align: center; border-bottom: 2px solid #491720; margin: 0 auto; 
+.menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; /*-moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px;*/}
+.menuitem { font-family: 'Lovers Quarrel', cursive; font-size: 4rem; color: #9d787a; text-align: center; margin: 0 auto; background: rgb(43,26,35,0.5);
+    padding-top: 5px;
+    line-height: 90%;
 }
 
 
@@ -173,7 +175,7 @@ width:100%;}
 .bebidas, .desserts  {marging: 0rem!important; margin-top:-2.5rem!important;}
 
 
-.topimage {background-position: center center; -moz-border-top-left-radius: 10px; -webkit-border-top-left-radius: 10px; border-top-left-radius:10px; -moz-border-top-right-radius: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius:10px; border-bottom: 1px solid #BE9A91; padding: 0.5rem 0 0; margin-bottom: 1rem;}
+.topimage {background-position: center center; -moz-border-top-left-radius: 10px; -webkit-border-top-left-radius: 10px; border-top-left-radius:10px; -moz-border-top-right-radius: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius:10px; border-bottom: 1px solid #BE9A91; padding: 0.5rem 0 0; margin-bottom: 1rem; background: none; line-height:none;}
 .topimage img {float:left; margin: 0 0.5rem 0.5rem 0; }
 
 .principal {
@@ -194,14 +196,14 @@ color:#454545;
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
 .destacado {font-family: 'M PLUS 1p', sans-serif;
 text-align:left;
-font-size:17px; font-weight: normal; text-align:center;}
-.descr {font-family: 'M PLUS 1p', sans-serif; font-weight: normal; color: #000000;
+font-size:17px; font-weight: normal; text-align:center; line-height: normal;}
+.descr {font-family: 'M PLUS 1p', sans-serif; font-weight: normal; color: #71585b;
 font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 }
 .tabla {padding: 8px 5px 4px;
     margin: 0;}
 	
-.menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:20px; border-bottom: none; line-height: 100%; padding:0; font-weight: 500; letter-spacing: -0.03rem;}
+.menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:20px; border-bottom: none; line-height: 100%; padding:0; font-weight: 500; letter-spacing: -0.03rem; background: none;}
 .price {position: relative;
  font-family: 'M PLUS 1p', sans-serif;
 
@@ -484,12 +486,12 @@ left:0;}
 
 @media only screen and (max-width: 900px) {
 
-.menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }
+.menuitemcontainer { /*-moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; */}
 .UK, .ES, .FR, .CT {margin: 0 1rem; width: 3rem; height:5rem;}
 .BOTONERA {top: 4.15rem;}
 .expandish {min-width: 98%;}
 /**FONDO DE COLOR**/
-.layer {background-color: rgba(134, 65, 56, 0.7);
+.layer {background-color: rgba(80, 40, 55, 0.7);
     position: absolute;
     top: 0;
     left: 0;
@@ -521,7 +523,6 @@ left:0;}
     }
 .FINDUS {top:0;}
 
-.topimage img {float: right; margin: 0 0 0.5rem 0.5rem;}
 }
 
 @media only screen and (min-width:901px) {
