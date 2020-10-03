@@ -36,12 +36,24 @@ background:url(https://akidaniel.github.io/menucatalina/imagenes/fondo.jpg)}
 
 /*TEXTOS*/
 
+
+@font-face {
+    font-family: 'La-Jolla-ES';
+    src:url('La-Jolla-ES.ttf.woff') format('woff'),
+        url('La-Jolla-ES.ttf.svg#La-Jolla-ES') format('svg'),
+        url('La-Jolla-ES.ttf.eot'),
+        url('La-Jolla-ES.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 .SUBTITULO{font-family: 'M PLUS 1p', sans-serif;
 font-size: 2.5rem;
 text-align:center;
 line-height: 2.5rem;
 margin: 0 0 1rem;
-font-weight: normal;}
+font-weight: bold;}
 
 
 /*FIN TEXTOS*/
@@ -161,7 +173,7 @@ margin:2rem 0 1rem 0;
 width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
-.menuitem { font-family: 'M PLUS 1p', sans-serif; font-weight: normal;
+.menuitem { font-family: 'M PLUS 1p', sans-serif; font-weight: bold;
  font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
 }
 
@@ -195,14 +207,14 @@ color:#454545;
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
 .destacado {font-family: 'M PLUS 1p', sans-serif;
 text-align:left;
-font-size:17px; font-weight: normal;}
+font-size:17px; font-weight: normal; text-align:center;}
 .descr {font-family: 'M PLUS 1p', sans-serif; font-weight: normal; color: #000000;
 font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 }
 .tabla {padding: 8px 5px 4px;
     margin: 0;}
 	
-.menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding:0;}
+.menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding:0; font-weight: 500;}
 .price {position: relative;
  font-family: 'M PLUS 1p', sans-serif;
 
