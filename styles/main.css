@@ -36,7 +36,7 @@ background:url(https://akidaniel.github.io/menucatalina/imagenes/fondo.jpg)}
 
 /*TEXTOS*/
 
-.SUBTITULO{font-family: 'Yanone Kaffeesatz', sans-serif;
+.SUBTITULO{font-family: 'Exo 2', sans-serif;
 font-size:3rem;
 text-align:center;
 line-height: 2.5rem;
@@ -161,11 +161,11 @@ margin:2rem 0 1rem 0;
 width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
-.menuitem { font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: bold;
+.menuitem { font-family: 'Exo 2', sans-serif; font-weight: bold;
  font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
 }
 
-/**.menuitembeer {font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: bold; display:flex!important;
+/**.menuitembeer {font-family: 'Exo 2', sans-serif; font-weight: bold; display:flex!important;
  font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; justify-content: center;}	
 .cartadevinos, .cartadepostres {display:none;}**/
 
@@ -180,7 +180,7 @@ width:100%;}
 .principal {
 background: ;
 flex: 1;
-font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Exo 2', sans-serif;
 font-size:18px;
 padding: 5px 5px 2px 5px; border-bottom: 2px dotted #ccc;
 color:#454545;
@@ -193,10 +193,10 @@ color:#454545;
 .dish-2 {text-align: center; margin: 1.5rem auto 0; width:49%; z-index:10;}
 .dish-3 {text-align: center; margin: 1.5rem auto 0; width:32%; z-index:10;}
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
-.destacado {font-family: 'Yanone Kaffeesatz', sans-serif;
+.destacado {font-family: 'Exo 2', sans-serif;
 text-align:left;
 font-size:17px; font-weight: normal;}
-.descr {font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: normal; color: #000000;
+.descr {font-family: 'Exo 2', sans-serif; font-weight: normal; color: #000000;
 font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 }
 .tabla {padding: 8px 5px 4px;
@@ -204,7 +204,7 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 	
 .menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding:0;}
 .price {position: relative;
- font-family: 'Yanone Kaffeesatz', sans-serif;
+ font-family: 'Exo 2', sans-serif;
 
  font-size: 18px; /*width:fit-content;-moz-border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -225,12 +225,12 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .dishphoto {text-align:center!important}
 
 .pricex3 {left: 30%; margin: 0 auto; position:unset;}
-.address {font-family: 'Yanone Kaffeesatz', sans-serif;
+.address {font-family: 'Exo 2', sans-serif;
  font-size: 15px; text-align: center; margin: 0 auto; line-height: 1.25rem;}
 .lastline {border:none; text-align:center; margin-bottom: 0.5rem;}
 
 .dishnumber {position: relative;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Exo 2', sans-serif;
 
     font-size: 16px;
     -moz-border-radius: 20px;
@@ -375,7 +375,7 @@ color: #000000;
 margin: 0.5rem 0.4rem -2rem 0rem;
 width:2.5rem;
 height:2.5rem;
-font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Exo 2', sans-serif;
 font-size: 15px; text-align: center;
 position: relative;
 line-height: 680%;
