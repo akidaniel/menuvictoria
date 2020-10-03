@@ -173,10 +173,10 @@ width:100%;}
     line-height: 100%;
 }
 
-
+i {color: #bc8f8f;}
 .ultimalinea {border:none}
 .menudevinos, .menudepostres {display:none}
-.bebidas, .desserts  {marging: 0rem!important; margin-top:-2.5rem!important;}
+.bebidas, .desserts  {marging: 0rem!important; margin-top:-1.5rem!important;}
 
 
 .topimage {padding: 0.5rem 0 0; background: none; line-height:none;}
