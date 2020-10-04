@@ -262,9 +262,10 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .dishphoto {text-align:center!important}
 
 .pricex3 {left: 30%; margin: 0 auto; position:unset;}
-.dish-3 i, .dish-2 i, .principal i {color:#1E5B77;}
+.dish-3 i, .dish-2 i, .principal i, .FINDUS i {color:#1E5B77;}
 .address {font-family: 'M PLUS 1p', sans-serif;
  font-size: 15px; text-align: center; margin: 0 auto; line-height: 1.25rem;}
+ .address i {color: #000000;}
 .lastline {border:none; text-align:center; margin-bottom: 0.5rem;}
 
 .dishnumber {position: relative;
@@ -536,7 +537,7 @@ left:0;}
 .menuitemcontainer { /*-moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; */}
 .UK, .ES, .FR, .CT {margin: 0 1rem; width: 3rem;}
 .BOTONERA {top: 4.15rem;}
-.expandish {min-width: 94%;}
+.expandish {min-width: 92%;}
 /**FONDO DE COLOR**/
 .layer {background-color: rgb(1,58,93,0.7);
     position: absolute;
@@ -571,7 +572,7 @@ left:0;}
 .FINDUS {top:0;}
 
 .topimage img {
-margin: 0 auto 0.15rem;
+margin: 0 auto;
 max-width: 100%;
 }
 

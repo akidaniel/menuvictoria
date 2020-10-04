@@ -204,7 +204,7 @@ font-size:18px;
 padding: 5px 5px 2px 5px; border-bottom: 2px dotted #FECDB0;
 color:#FECDB0;
 }
-
+.FFW {flex:1;}
 .ultimalinea {border:none}
 
 
@@ -520,7 +520,7 @@ left:0;}
 .menuitemcontainer { /*-moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; */}
 .UK, .ES, .FR, .CT {margin: 0 1rem; width: 3rem;}
 .BOTONERA {top: 4.15rem;}
-.expandish {min-width: 95%;}
+.expandish {min-width: 92%;}
 /**FONDO DE COLOR**/
 .layer {background-color: rgba(80, 40, 55, 0.7);
     position: absolute;
@@ -555,7 +555,7 @@ left:0;}
 .FINDUS {top:0;}
 
 .topimage img {
-margin: 1rem auto 0.15rem;
+margin: 0 auto;
 max-width: 90%;
 }
 
