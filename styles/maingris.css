@@ -221,7 +221,7 @@ color:#1E5B77;
 	-moz-box-shadow: 0 0 0pt 2.5pt #527D91; 
 	-webkit-box-shadow: 0 0 0pt 2.5pt #527D91; 
 	box-shadow: 0 0 0pt 2.5pt #527D91;}
-.dish-3 {text-align: center; width:32%; z-index:10; margin: 0.4rem 0.35rem 0.05rem; width:49%; z-index:10; background: rgb(245,162,166,0.25);
+.dish-3 {text-align: center; width:32%; z-index:10; margin: 0.25rem 0.1rem 0.05rem; width:49%; z-index:10; /*background: rgb(224,255,255,0.25)*/;
     padding: 0.5rem 0.5rem 1rem; -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
     border-radius: 12px; -moz-box-shadow: 0 0 0pt 2.5pt #527D91; -webkit-box-shadow: 0 0 0pt 2.5pt #527D91; box-shadow: 0 0 0pt 2.5pt #527D91;}
@@ -287,13 +287,13 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 		  content: "\2617"; color:blue; margin-left: -1.5em; z-index:-9999; display:none;
 }
 
-.menues {background: rgb(43,26,35,0.5);
+.menues {background: rgb(219,249,255,0.35);
     padding: 5px;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
-    border-radius: 12px;}
+    border-radius: 15px;}
 	
-.menueslight {background: rgb(245,162,166,0.25);}
+.menueslight {}
 
 	
 .menues .menuitem {margin-bottom: 0.5rem;}
@@ -531,9 +531,9 @@ left:0;}
 .menuitemcontainer { /*-moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; */}
 .UK, .ES, .FR, .CT {margin: 0 1rem; width: 3rem;}
 .BOTONERA {top: 4.15rem;}
-.expandish {min-width: 95%;}
+.expandish {min-width: 94%;}
 /**FONDO DE COLOR**/
-.layer {background-color: rgba(80, 40, 55, 0.7);
+.layer {background-color: rgb(1,58,93,0.7);
     position: absolute;
     top: 0;
     left: 0;
@@ -566,7 +566,7 @@ left:0;}
 .FINDUS {top:0;}
 
 .topimage img {
-margin: 1rem auto 0.15rem;
+margin: 0 auto 0.15rem;
 max-width: 100%;
 }
 
