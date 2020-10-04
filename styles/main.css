@@ -228,29 +228,24 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .tabla {padding: 8px 5px 4px;
     margin: 0;}
 	
-.menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:20px; border-bottom: none; line-height: 100%; padding:0; font-weight: 500; letter-spacing: -0.03rem; background: none; color:#FECDB0;}
+.menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:18px; border-bottom: none; line-height: 100%; padding:0; font-weight: 500; letter-spacing: -0.03rem; background: none; color:#FECDB0;}
 .price {position: relative;
- font-family: 'M PLUS 1p', sans-serif;
- font-size: 18px; 
- transform: scale(.7, 1);
-    display: inline-block;/*width:fit-content;-moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
-    padding: 4px 10px;
-    background-color: #7B7E97;
-    bottom: 15px; color: white;
-    
-   
-    left: 60%;
+font-family: 'M PLUS 1p', sans-serif;
+font-size: 18px; 
+transform: scale(.7, 1);
+display: inline-block; right: 0; font-weight: 500;
+/*width:fit-content;-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+padding: 4px 10px;
+background-color: #7B7E97;
+bottom: 15px; color: white;
  display: block;
-    width: 50px; text-align: unset;*/right: 0; font-weight: 500; 
+width: 50px; text-align: unset;*/ 
    }
    
-
-	
-	
 .dishphoto {text-align:center!important}
-
+.dish-2 i, .dish-3 i {color:#2C1A23;}
 .pricex3 {left: 30%; margin: 0 auto; position:unset;}
 .address {font-family: 'M PLUS 1p', sans-serif;
  font-size: 15px; text-align: center; margin: 0 auto; line-height: 1.25rem;}
