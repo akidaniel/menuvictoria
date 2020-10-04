@@ -25,17 +25,17 @@ text-align:left;
 padding:0;
 background:url(https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagris.jpg);
 
-background: -moz-linear-gradient(top, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagris.jpg');
+background: -moz-linear-gradient(top, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
 
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(1,58,93,1)), color-stop(8%, rgba(146,200,213,0.5))), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagris.jpg');
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(1,58,93,1)), color-stop(8%, rgba(146,200,213,0.5))), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
 
-background: -webkit-linear-gradient(top, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagris.jpg');
+background: -webkit-linear-gradient(top, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
 
-background: -o-linear-gradient(top, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagris.jpg');
+background: -o-linear-gradient(top, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
 
-background: -ms-linear-gradient(top, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagris.jpg');
+background: -ms-linear-gradient(top, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
 
-background: linear-gradient(to bottom, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagris.jpg');
+background: linear-gradient(to bottom, rgba(1,58,93,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
 
 }
  
@@ -214,17 +214,19 @@ color:#1E5B77;
 
 
 
-.dish-2 {text-align: center; margin: 0.2rem 0.1rem 0.05rem; width:49%; z-index:10;
+.dish-2 {text-align: center; margin: 0.1rem 0.05rem 0rem; width:49%; z-index:10;
     padding: 0.5rem 0.5rem 1rem; -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
     border-radius: 12px; 
-	-moz-box-shadow: 0 0 0pt 2.5pt #527D91; 
-	-webkit-box-shadow: 0 0 0pt 2.5pt #527D91; 
-	box-shadow: 0 0 0pt 2.5pt #527D91;}
-.dish-3 {text-align: center; width:32%; z-index:10; margin: 0.25rem 0.1rem 0.05rem; width:49%; z-index:10; /*background: rgb(224,255,255,0.25)*/;
+	-moz-box-shadow: 0 0 0pt 1.5pt #527D91; 
+	-webkit-box-shadow: 0 0 0pt 1.5pt #527D91; 
+	box-shadow: 0 0 0pt 1.5pt #527D91;
+	background: rgba(213,247,255,0.3);}
+.dish-3 {text-align: center; width:32%; z-index:10; margin: 0.15rem 0.1rem 0rem; width:49%; z-index:10;
     padding: 0.5rem 0.5rem 1rem; -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
-    border-radius: 12px; -moz-box-shadow: 0 0 0pt 2.5pt #527D91; -webkit-box-shadow: 0 0 0pt 2.5pt #527D91; box-shadow: 0 0 0pt 2.5pt #527D91;}
+    border-radius: 12px; -moz-box-shadow: 0 0 0pt 1.5pt #527D91; -webkit-box-shadow: 0 0 0pt 1.5pt #527D91; box-shadow: 0 0 0pt 1.5pt #527D91;
+	background: rgba(213,247,255,0.3);}
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
 .dish-1 {width:99%;}
 .destacado {font-family: 'M PLUS 1p', sans-serif;
@@ -236,7 +238,7 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .tabla {padding: 8px 5px 4px;
     margin: 0;}
 	
-.menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:20px; border-bottom: none; line-height: 100%; padding:0; font-weight: 500; letter-spacing: -0.03rem; background: none; color:#1E5B77;}
+.menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:20px; border-bottom: none; line-height: 115%; padding:0; font-weight: 500; letter-spacing: -0.03rem; background: none; color:#1E5B77;}
 .price {position: relative;
  font-family: 'M PLUS 1p', sans-serif;
  font-size: 18px;
@@ -260,6 +262,7 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .dishphoto {text-align:center!important}
 
 .pricex3 {left: 30%; margin: 0 auto; position:unset;}
+.dish-3 i, .dish-2 i, .principal i {color:#1E5B77;}
 .address {font-family: 'M PLUS 1p', sans-serif;
  font-size: 15px; text-align: center; margin: 0 auto; line-height: 1.25rem;}
 .lastline {border:none; text-align:center; margin-bottom: 0.5rem;}
