@@ -80,11 +80,11 @@ width:100%;}
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME, .WHATS {
 text-indent: unset;
-border: 0.15rem solid #99B7C0;
+border: 0.15rem solid #e0ffff;
 border-radius: 8px;
 font-family: "Font Awesome 5 Brands";
 padding-right: 0.35rem;
-color: #99B7C0;
+color: #e0ffff;
 text-decoration:none;
 font-size: 1.5rem;
 line-height: 2.5rem;
@@ -184,20 +184,20 @@ width:100%;}
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; /*-moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px;*/}
 .menuitem {font-family: 'Euphoria Script', cursive; font-size: 3rem; 
 color: #e0ffff;
-    text-align: center;
-    margin: 0 -0.1rem -0.1rem;
-    background: rgb(4,80,90,0.5);
-    padding: 5px;
-    -moz-border-radius: 12px 12px 0 0;
-    -webkit-border-radius: 12px 12px 0 0;
-    border-radius: 12px 12px 0 0;
-	text-shadow: 2px 1px 0.1rem #034163;
+text-align: center;
+margin: 0 -0.05rem -0.1rem;
+background: rgb(4,80,90,0.5);
+padding: 5px;
+-moz-border-radius: 12px 12px 0 0;
+-webkit-border-radius: 12px 12px 0 0;
+border-radius: 12px 12px 0 0;
+text-shadow: 2px 1px 0.1rem #034163;
 }
 
 i {color: #e0ffff;}
 .ultimalinea {border:none}
 .menudevinos, .menudepostres {display:none}
-.bebidas, .desserts  {marging: 0rem!important; margin-top:-1.5rem!important;}
+.bebidas, .desserts  {margin-top:-4.5rem!important;}
 
 
 .topimage {margin: -2.5rem 0 0; background: none; line-height:none;}
@@ -337,8 +337,8 @@ position:relative;
 .UK, .ES, .FR, .CT {
 display:block;
 text-indent:-625rem;
-width:4rem;
-height:4rem;
+width:3rem;
+height:3rem;
 background-repeat:no-repeat;
 background-size:contain;
 cursor: pointer;
@@ -574,8 +574,12 @@ left:0;}
 .FINDUS {top:0;}
 
 .topimage img {
-margin: 0 auto 0.5rem;
+margin: 0.8rem auto;
 max-width: 100%;
+}
+
+.bebidas, .desserts {
+    margin-top: -0.5rem!important;
 }
 
 .SOCIAL {
@@ -591,6 +595,7 @@ margin: 0 -0.04rem;
 width: 3.5rem;
 text-align: center;
 padding: 0.85rem 0 0;
+color: #99B7C0;
 }
 .BACK {display:block;}
 }
