@@ -80,12 +80,12 @@ width:100%;}
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME, .WHATS {
 text-indent: unset;
-border: 0.15rem solid #e0ffff;
+border: 0.15rem solid #99B7C0;
 border-radius: 8px;
 font-family: "Font Awesome 5 Brands";
 display: inline-block;
 padding-right: 0.35rem;
-color: #e0ffff;
+color: #99B7C0;
 text-decoration:none;
 font-size: 1.5rem;
 line-height: 2.5rem;
@@ -206,8 +206,8 @@ background: ;
 flex: 1;
 font-family: 'M PLUS 1p', sans-serif;
 font-size:18px;
-padding: 5px 5px 2px 5px; border-bottom: 2px dotted #bc8f8f;
-color:#bc8f8f;
+padding: 5px 5px 2px 5px; border-bottom: 2px dotted #1E5B77;
+color:#1E5B77;
 }
 
 .ultimalinea {border:none}
@@ -224,7 +224,7 @@ color:#bc8f8f;
 .dish-3 {text-align: center; width:32%; z-index:10; margin: 0.4rem 0.35rem 0.05rem; width:49%; z-index:10; background: rgb(245,162,166,0.25);
     padding: 0.5rem 0.5rem 1rem; -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
-    border-radius: 12px; -moz-box-shadow: 0 0 0pt 5pt #4F242D; -webkit-box-shadow: 0 0 0pt 5pt #4F242D; box-shadow: 0 0 0pt 5pt #4F242D;}
+    border-radius: 12px; -moz-box-shadow: 0 0 0pt 2.5pt #527D91; -webkit-box-shadow: 0 0 0pt 2.5pt #527D91; box-shadow: 0 0 0pt 2.5pt #527D91;}
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
 .dish-1 {width:99%;}
 .destacado {font-family: 'M PLUS 1p', sans-serif;
