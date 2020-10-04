@@ -83,7 +83,6 @@ text-indent: unset;
 border: 0.15rem solid #99B7C0;
 border-radius: 8px;
 font-family: "Font Awesome 5 Brands";
-display: inline-block;
 padding-right: 0.35rem;
 color: #99B7C0;
 text-decoration:none;
@@ -230,7 +229,7 @@ color:#1E5B77;
 	background: rgba(213,247,255,0.3);}
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
 .dish-1 {width:99%;}
-.destacado {font-family: 'M PLUS 1p', sans-serif;
+.destacado {font-family: 'M PLUS 1p', sans-serif; margin:-0.5rem 0 0.5rem;
 text-align:left;
 font-size:17px; font-weight: normal; text-align:center; line-height: 120%; color: #e0ffff; text-shadow: none;}
 .descr {font-family: 'M PLUS 1p', sans-serif; font-weight: normal;
@@ -574,11 +573,28 @@ left:0;}
 .FINDUS {top:0;}
 
 .topimage img {
-margin: 0 auto;
+margin: 0 auto 0.5rem;
 max-width: 100%;
 }
 
+.SOCIAL {
+top:-1.8rem;
 }
+
+/*BOTON SOCIAL*/
+.FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME, .WHATS {
+border: 0.13rem solid #99B7C0;
+border-radius: 12rem;
+line-height: 3.5rem;
+margin: 0 0.25rem;
+width: 3.5rem;
+text-align: center;
+padding: 0.85rem 0 0;
+}
+
+}
+
+
 
 @media only screen and (min-width:901px) {
 
