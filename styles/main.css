@@ -169,7 +169,7 @@ margin: 0 auto;
 justify-content: space-evenly;
 } 
 .preciolista {
-  flex: 0 0 80px;
+  flex: 0 0 20%!important;
   text-align:right;
 }
 
@@ -182,14 +182,14 @@ margin:2rem 0 1rem 0;
 width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; /*-moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px;*/}
-.menuitem {font-family: 'Euphoria Script', cursive; font-size: 3rem; color: #bc8f8f; text-align: center; margin: 0 -0.1rem -0.5rem; background: rgb(43,26,35,0.5);
+.menuitem {font-family: 'Euphoria Script', cursive; font-size: 3rem; color: #fcb7b7; text-align: center; margin: 0 -0.1rem -0.5rem; background: rgb(43,26,35,0.5);
     padding: 5px;
     -moz-border-radius: 12px 12px 0 0;
     -webkit-border-radius: 12px 12px 0 0;
     border-radius: 12px 12px 0 0;
 }
 
-i {color: #bc8f8f;}
+i {color: #FECDB0;}
 .ultimalinea {border:none}
 .menudevinos, .menudepostres {display:none}
 .bebidas, .desserts  {marging: 0rem!important; margin-top:-1.5rem!important;}
@@ -198,12 +198,11 @@ i {color: #bc8f8f;}
 .topimage {padding: 0.5rem 0 0; background: none; line-height:none;}
 .topimage img {max-width:590px;}
 .principal {
-background: ;
-flex: 1;
+flex: 0 0 75%;
 font-family: 'M PLUS 1p', sans-serif;
 font-size:18px;
-padding: 5px 5px 2px 5px; border-bottom: 2px dotted #bc8f8f;
-color:#bc8f8f;
+padding: 5px 5px 2px 5px; border-bottom: 2px dotted #FECDB0;
+color:#FECDB0;
 }
 
 .ultimalinea {border:none}
@@ -229,10 +228,12 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .tabla {padding: 8px 5px 4px;
     margin: 0;}
 	
-.menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:20px; border-bottom: none; line-height: 100%; padding:0; font-weight: 500; letter-spacing: -0.03rem; background: none;}
+.menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:20px; border-bottom: none; line-height: 100%; padding:0; font-weight: 500; letter-spacing: -0.03rem; background: none; color:#FECDB0;}
 .price {position: relative;
  font-family: 'M PLUS 1p', sans-serif;
- font-size: 15px; /*width:fit-content;-moz-border-radius: 20px;
+ font-size: 18px; 
+ transform: scale(.7, 1);
+    display: inline-block;/*width:fit-content;-moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     padding: 4px 10px;
