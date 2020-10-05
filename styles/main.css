@@ -187,15 +187,19 @@ width:100%;}
     -moz-border-radius: 12px 12px 0 0;
     -webkit-border-radius: 12px 12px 0 0;
     border-radius: 12px 12px 0 0;
+	text-shadow: 2px 1px 0.1rem #290000;
 }
-
+.menuitem img {vertical-align: middle;
+    filter: contrast(0) brightness(0.47) invert(1) sepia(1) saturate(3) hue-rotate(299deg) drop-shadow(2px 1px 0rem #290000); width:40px;
+}
+   
 i {color: #FECDB0;}
 .ultimalinea {border:none}
 .menudevinos, .menudepostres {display:none}
 .bebidas, .desserts {margin-top:-4.5rem!important;}
 
 
-.topimage {margin: -2.5rem 0 0; background: none; line-height:none;}
+.topimage {margin: -2.5rem auto 0; text-align:center;}
 .topimage img {max-width:590px;}
 .principal {
 flex: 0 0 75%;
@@ -221,7 +225,7 @@ color:#FECDB0;
 .dish-1 {width:99%;}
 .destacado {font-family: 'M PLUS 1p', sans-serif;
 text-align:left;
-font-size:17px; font-weight: normal; text-align:center; line-height: 120%;}
+font-size:17px; font-weight: normal; text-align:center; line-height: 120%; color:#FBBCBD;}
 .descr {font-family: 'M PLUS 1p', sans-serif; font-weight: normal;
 font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 }
@@ -248,7 +252,8 @@ width: 50px; text-align: unset;*/
 .dish-2 i, .dish-3 i {color:#2C1A23;}
 .pricex3 {left: 30%; margin: 0 auto; position:unset;}
 .address {font-family: 'M PLUS 1p', sans-serif;
- font-size: 15px; text-align: center; margin: 0 auto; line-height: 1.25rem;}
+ font-size: 15px; text-align: center; margin: 0 auto; line-height: 1.25rem; color:#FBBCBD;}
+.address i, .FINDUS i {color:#FBBCBD;}
 .lastline {border:none; text-align:center; margin-bottom: 0.5rem;}
 
 .dishnumber {position: relative;
@@ -377,19 +382,19 @@ border-radius:12px!important;
 .-C {text-align:center!important; }
 .cartadevinos.TITLE, .cartadepostres.TITLE {margin: 6rem auto 0;}
 .wine {text-align: center!important;}
-.wine img {height: 230px; padding:0; margin: 0 auto 0.8rem;}
+.wine img {height: 230px; padding:0; margin: 0 auto 0.8rem; -webkit-filter: drop-shadow(3px 4px 3px rgba(43,0,3,0.6));}
 .expandish .wine img {width:unset; height: unset; }
 .expandish .-C .price {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
 .expandish .-C .pricex3 {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
-.expandish .-C {margin-top: -8rem;}
+.expandish .-C {position: absolute; right: 1.5rem; top: 50%;}
 .expandish .fa-wine-glass-alt {left: 10rem; position: relative;}
 .expandish .wine {text-align: left!important; margin-left: 3rem!important; height: 430px;}
 .expandish .-C p {margin-left: 10rem;}
 .expandish .-C .descr {padding: 0 0 10px 0;}
 
 
-.FINDUS {top:0;}
-a.FINDUS {text-decoration: none;}
+.FINDUS {top:0; color:#FBBCBD;}
+.FINDUS a, .address a {text-decoration: none; color:#FBBCBD;}
 
 /**ALERGENOS**/
 .alergenos {display:none; justify-content: left;
@@ -517,7 +522,8 @@ left:0;}
     }**/
 
 @media only screen and (max-width: 900px) {
-
+html {margin: -0.5rem 2px 0;
+}
 .menuitemcontainer { /*-moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; */}
 .UK, .ES, .FR, .CT {margin: 0 1rem; width: 3rem;}
 .BOTONERA {top: 4.15rem;}
@@ -557,8 +563,7 @@ left:0;}
 .FINDUS {top:0;}
 
 .topimage img {
-margin: 2.5rem auto -0.5rem;
-max-width: 100%;
+margin: 4rem auto 0; max-width:100%;
 }
 
 

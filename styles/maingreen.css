@@ -250,6 +250,7 @@ width: 50px; text-align: unset;*/right: 0; font-weight: 500;
 .address {font-family: 'M PLUS 1p', sans-serif;
  font-size: 15px; text-align: center; margin: 0 auto; line-height: 1.25rem;}
 .address i {color: #000000;}
+.address a {text-decoration:none; color:#000000;}
 .lastline {border:none; text-align:center; margin-bottom: 0.5rem;}
 
 .dishnumber {position: relative;
@@ -384,8 +385,7 @@ border-radius:12px!important;
 .expandish .wine img {width:unset; height: unset; }
 .expandish .-C .price {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
 .expandish .-C .pricex3 {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
-.expandish .-C {position: absolute;
-    right: 1.5rem; top: 50%;}
+.expandish .-C {position: absolute; right: 1.5rem; top: 50%;}
 .expandish .fa-wine-glass-alt {left: 10rem; position: relative;}
 .expandish .wine {text-align: left!important; margin-left: 3rem!important; height: 430px;}
 .expandish .-C p {margin-left: 10rem;}
@@ -521,7 +521,8 @@ left:0;}
     }**/
 
 @media only screen and (max-width: 900px) {
-
+html {margin: -0.5rem 2px 0;
+}
 .menuitemcontainer { /*-moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; */}
 .UK, .ES, .FR, .CT {margin: 0 1rem; width: 3rem;}
 .BOTONERA {top: 4.15rem;}
