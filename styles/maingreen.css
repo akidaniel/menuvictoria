@@ -201,7 +201,7 @@ i {color: #e0ffff;}
 
 
 .topimage {margin: -2.5rem 0 0; background: none; line-height:none;}
-.topimage img {max-width:590px;}
+.topimage img {max-width:500px;}
 .principal {
 background: ;
 flex: 1;
@@ -230,7 +230,7 @@ color:#1E5B77;
 	background: rgba(213,247,255,0.3);}
 .dish-2 img, .dish-3 img, dish-1 img {max-height: 100%; max-width: 100%; -webkit-filter: drop-shadow(5px 9px 5px rgba(1,40,45,0.6));}
 .dish-1 {width:99%;}
-.destacado {font-family: 'M PLUS 1p', sans-serif; margin:-0.5rem 0 0.5rem;
+.destacado {font-family: 'M PLUS 1p', sans-serif; margin:0.5rem;
 text-align:left;
 font-size:17px; font-weight: normal; text-align:center; line-height: 120%; color: #e0ffff; text-shadow: none;}
 .descr {font-family: 'M PLUS 1p', sans-serif; font-weight: normal;
@@ -239,7 +239,7 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .tabla {padding: 8px 5px 4px;
     margin: 0;}
 	
-.menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:18px; border-bottom: none; line-height: 115%; padding:0; font-weight: 500; letter-spacing: -0.03rem; background: none; color:#1E5B77; text-shadow: none;}
+.menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:18px; line-height: 115%; padding:0; font-weight: 500; letter-spacing: -0.03rem; background: none; color:#1E5B77; text-shadow: none;}
 .price {position: relative;
 font-family: 'M PLUS 1p', sans-serif;
 font-size: 16px;
@@ -397,7 +397,8 @@ border-radius:12px!important;
 .expandish .wine img {width:unset; height: unset; }
 .expandish .-C .price {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
 .expandish .-C .pricex3 {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
-.expandish .-C {margin-top: -8rem;}
+.expandish .-C {position: absolute;
+    right: 1.5rem; top: 50%;}
 .expandish .fa-wine-glass-alt {left: 10rem; position: relative;}
 .expandish .wine {text-align: left!important; margin-left: 3rem!important; height: 430px;}
 .expandish .-C p {margin-left: 10rem;}
