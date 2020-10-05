@@ -201,7 +201,7 @@ i {color: #e0ffff;}
 
 
 .topimage {margin: -2.5rem 0 0; background: none; line-height:none;}
-.topimage img {max-width:500px;}
+.topimage img {max-width:500px; filter: none!important;}
 .principal {
 background: ;
 flex: 1;
@@ -361,7 +361,9 @@ z-index:222;}
 
 .dish-2 div {text-align: right;}
 
-
+.menuitem img {vertical-align: middle;
+    filter: brightness(0) invert(1) sepia(1) saturate(2.5) hue-rotate(140deg) drop-shadow(2px 1px 0rem #034163); width:40px;
+   }
 
 .expandish {
 background-color:#ffffff;
@@ -393,7 +395,7 @@ border-radius:12px!important;
 .-C {text-align:center!important; }
 .cartadevinos.TITLE, .cartadepostres.TITLE {margin: 6rem auto 0;}
 .wine {text-align: center!important;}
-.wine img {height: 230px; padding:0; margin: 0 auto 0.8rem;}
+.wine img {height: 230px; padding:0; margin: 0 auto 0.8rem; -webkit-filter: drop-shadow(3px 4px 3px rgba(1,40,45,0.4));}
 .expandish .wine img {width:unset; height: unset; }
 .expandish .-C .price {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
 .expandish .-C .pricex3 {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
