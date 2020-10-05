@@ -25,17 +25,17 @@ text-align:left;
 padding:0;
 background:url(https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagris.jpg);
 
-background: -moz-linear-gradient(top, rgba(4,80,90,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
+background: -moz-linear-gradient(top, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
 
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(4,80,90,1)), color-stop(8%, rgba(146,200,213,0.5))), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(4,80,90,0.8)), color-stop(8%, rgba(146,200,213,0.5))), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
 
-background: -webkit-linear-gradient(top, rgba(4,80,90,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
+background: -webkit-linear-gradient(top, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
 
-background: -o-linear-gradient(top, rgba(4,80,90,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
+background: -o-linear-gradient(top, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
 
-background: -ms-linear-gradient(top, rgba(4,80,90,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
+background: -ms-linear-gradient(top, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
 
-background: linear-gradient(to bottom, rgba(4,80,90,1) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
+background: linear-gradient(to bottom, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
 
 }
  
@@ -574,14 +574,14 @@ top:-1.8rem;
 
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME, .WHATS {
-border: 0.13rem solid #4b878f;
+border: 0.13rem solid #6fa6a2;
 border-radius: 3rem;
 line-height: 3rem;
 margin: 0 -0.04rem;
 width: 3.5rem;
 text-align: center;
 padding: 1.2rem 0 0;
-color: #4b878f;
+color: #6fa6a2;
 }
 .BACK {display:block;}
 }
