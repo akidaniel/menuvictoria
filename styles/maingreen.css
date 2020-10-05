@@ -49,10 +49,6 @@ background: linear-gradient(to bottom, rgba(4,80,90,1) 0%, rgba(146,200,213,0.5)
 }
 
 /*TEXTOS*/
-
-
-
-
 .SUBTITULO{font-family: 'M PLUS 1p', sans-serif;
 font-size: 2rem;
 text-align:center;
@@ -120,18 +116,7 @@ width: 2.25rem;
 	font-weight: 900;
 }
 
-/*BOTON TEXT ME
-.text-me {
-	display: block;
-	width: 3.75rem;
-	height: 3.75rem;
-	text-indent: -9999px;
-	position: absolute;
-	z-index: 999;
-	right: 1.25rem;
-	top: 1.8rem;
-	background: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_TEXT.svg) no-repeat center 43%;
-}
+
 /*BOTON BACK TO TOP*/
 .back-to-top {
 	display: none;
@@ -200,8 +185,8 @@ i {color: #e0ffff;}
 .bebidas, .desserts  {margin-top:-4.5rem!important;}
 
 
-.topimage {margin: -2.5rem 0 0; background: none; line-height:none;}
-.topimage img {max-width:500px; filter: none!important;}
+.topimage {margin: -2.5rem auto 0; text-align:center;}
+.topimage img {max-width:500px;}
 .principal {
 background: ;
 flex: 1;
@@ -230,7 +215,7 @@ color:#1E5B77;
 	background: rgba(213,247,255,0.3);}
 .dish-2 img, .dish-3 img, dish-1 img {max-height: 100%; max-width: 100%; -webkit-filter: drop-shadow(5px 9px 5px rgba(1,40,45,0.6));}
 .dish-1 {width:99%;}
-.destacado {font-family: 'M PLUS 1p', sans-serif; margin:0.5rem;
+.destacado {font-family: 'M PLUS 1p', sans-serif; margin:0.5rem 0.5rem 1rem;
 text-align:left;
 font-size:17px; font-weight: normal; text-align:center; line-height: 120%; color: #e0ffff; text-shadow: none;}
 .descr {font-family: 'M PLUS 1p', sans-serif; font-weight: normal;
@@ -576,8 +561,7 @@ left:0;}
 .FINDUS {top:0;}
 
 .topimage img {
-margin: 0.8rem auto;
-max-width: 100%;
+margin: 4rem auto 0; max-width:100%;
 }
 
 .bebidas, .desserts {
