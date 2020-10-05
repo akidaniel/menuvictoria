@@ -590,12 +590,12 @@ top:-1.8rem;
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME, .WHATS {
 border: 0.13rem solid #99B7C0;
-border-radius: 12rem;
-line-height: 3.5rem;
+border-radius: 3rem;
+line-height: 3rem;
 margin: 0 -0.04rem;
 width: 3.5rem;
 text-align: center;
-padding: 0.85rem 0 0;
+padding: 1.2rem 0 0;
 color: #99B7C0;
 }
 .BACK {display:block;}
