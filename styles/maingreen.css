@@ -241,21 +241,19 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 	
 .menuitem.plato {font-family: 'M PLUS 1p', sans-serif; font-size:18px; border-bottom: none; line-height: 115%; padding:0; font-weight: 500; letter-spacing: -0.03rem; background: none; color:#1E5B77; text-shadow: none;}
 .price {position: relative;
- font-family: 'M PLUS 1p', sans-serif;
- font-size: 16px;
- transform: scale(.7, 1);
-    display: inline-block;/*width:fit-content;-moz-border-radius: 20px;
+font-family: 'M PLUS 1p', sans-serif;
+font-size: 16px;
+transform: scale(.7, 1);
+display: inline-block;/*width:fit-content;-moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     padding: 4px 10px;
     background-color: #7B7E97;
     bottom: 15px; color: white;
-    
-   
     left: 60%;
  display: block;
-    width: 50px; text-align: unset;*/right: 0; font-weight: 500; 
-   }
+width: 50px; text-align: unset;*/right: 0; font-weight: 500; 
+}
    
 
 	
@@ -266,7 +264,7 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .dish-3 i, .dish-2 i, .principal i, .FINDUS i {color:#1E5B77;}
 .address {font-family: 'M PLUS 1p', sans-serif;
  font-size: 15px; text-align: center; margin: 0 auto; line-height: 1.25rem;}
- .address i {color: #000000;}
+.address i {color: #000000;}
 .lastline {border:none; text-align:center; margin-bottom: 0.5rem;}
 
 .dishnumber {position: relative;
@@ -395,13 +393,13 @@ border-radius:12px!important;
 .-C {text-align:center!important; }
 .cartadevinos.TITLE, .cartadepostres.TITLE {margin: 6rem auto 0;}
 .wine {text-align: center!important;}
-.wine img {height: 230px; padding:0}
+.wine img {height: 230px; padding:0; margin: 0 auto 0.8rem;}
 .expandish .wine img {width:unset; height: unset; }
 .expandish .-C .price {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
 .expandish .-C .pricex3 {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
 .expandish .-C {margin-top: -8rem;}
 .expandish .fa-wine-glass-alt {left: 10rem; position: relative;}
-.expandish .wine {text-align: left!important; margin-left: 3rem!important;}
+.expandish .wine {text-align: left!important; margin-left: 3rem!important; height: 430px;}
 .expandish .-C p {margin-left: 10rem;}
 .expandish .-C .descr {padding: 0 0 10px 0;}
 
@@ -589,14 +587,14 @@ top:-1.8rem;
 
 /*BOTON SOCIAL*/
 .FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME, .WHATS {
-border: 0.13rem solid #99B7C0;
+border: 0.13rem solid #4b878f;
 border-radius: 3rem;
 line-height: 3rem;
 margin: 0 -0.04rem;
 width: 3.5rem;
 text-align: center;
 padding: 1.2rem 0 0;
-color: #99B7C0;
+color: #4b878f;
 }
 .BACK {display:block;}
 }

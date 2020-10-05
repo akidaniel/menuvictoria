@@ -182,7 +182,7 @@ margin:2rem 0 1rem 0;
 width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; /*-moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px;*/}
-.menuitem {font-family: 'Euphoria Script', cursive; font-size: 3rem; color: #fcb7b7; text-align: center; margin: 0 -0.1rem -0.5rem; background: rgb(43,26,35,0.5);
+.menuitem {font-family: 'Euphoria Script', cursive; font-size: 3rem; color: #fcb7b7; text-align: center; margin: 0 -0.2rem -0.5rem; background: rgb(43,26,35,0.5);
     padding: 5px;
     -moz-border-radius: 12px 12px 0 0;
     -webkit-border-radius: 12px 12px 0 0;
@@ -192,10 +192,10 @@ width:100%;}
 i {color: #FECDB0;}
 .ultimalinea {border:none}
 .menudevinos, .menudepostres {display:none}
-.bebidas, .desserts  {marging: 0rem!important; margin-top:-1.5rem!important;}
+.bebidas, .desserts {margin-top:-4.5rem!important;}
 
 
-.topimage {padding: 0.5rem 0 0; background: none; line-height:none;}
+.topimage {margin: -2.5rem 0 0; background: none; line-height:none;}
 .topimage img {max-width:590px;}
 .principal {
 flex: 0 0 75%;
@@ -217,7 +217,7 @@ color:#FECDB0;
     padding: 0.5rem 0.5rem 1rem; -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
     border-radius: 12px; -moz-box-shadow: 0 0 0pt 5pt #4F242D; -webkit-box-shadow: 0 0 0pt 5pt #4F242D; box-shadow: 0 0 0pt 5pt #4F242D;}
-.dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
+.dish-2 img, .dish-3 img, dish-1 img {max-height: 100%; max-width: 100%; -webkit-filter: drop-shadow(5px 9px 5px rgba(43,0,3,0.6));}
 .dish-1 {width:99%;}
 .destacado {font-family: 'M PLUS 1p', sans-serif;
 text-align:left;
@@ -357,6 +357,7 @@ cursor: zoom-out;
 margin: 0;
 z-index: 12;
 padding-bottom: 1rem;
+border-radius:12px!important;
 }
 
 .expandish img {width: 300px; /**padding: 15px 0 0 0;**/}
@@ -376,13 +377,13 @@ padding-bottom: 1rem;
 .-C {text-align:center!important; }
 .cartadevinos.TITLE, .cartadepostres.TITLE {margin: 6rem auto 0;}
 .wine {text-align: center!important;}
-.wine img {height: 230px; padding:0}
+.wine img {height: 230px; padding:0; margin: 0 auto 0.8rem;}
 .expandish .wine img {width:unset; height: unset; }
 .expandish .-C .price {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
 .expandish .-C .pricex3 {line-height: 180%; margin-left: 10rem; left:unset; right:unset;}
 .expandish .-C {margin-top: -8rem;}
 .expandish .fa-wine-glass-alt {left: 10rem; position: relative;}
-.expandish .wine {text-align: left!important; margin-left: 3rem!important;}
+.expandish .wine {text-align: left!important; margin-left: 3rem!important; height: 430px;}
 .expandish .-C p {margin-left: 10rem;}
 .expandish .-C .descr {padding: 0 0 10px 0;}
 
@@ -533,7 +534,8 @@ left:0;}
 /**FIN FONDO DE COLOR**/
 
 
-	
+.bebidas, .desserts {margin-top: -1rem!important;}	
+
 /**.price {left:30%}
 .expandish .price {display: unset;}
 .pricex3 {left:unset; line-height: 140%;}**/
@@ -555,8 +557,24 @@ left:0;}
 .FINDUS {top:0;}
 
 .topimage img {
-margin: 0 auto;
-max-width: 90%;
+margin: 2.5rem auto -0.5rem;
+max-width: 100%;
+}
+
+
+.SOCIAL {
+top:-1.8rem;
+}
+
+/*BOTON SOCIAL*/
+.FCBK, .TWITTER, .INSTA, .MAIL, .BACK, .HOME, .WHATS {
+border: 0.13rem solid #914F58;
+border-radius: 3rem;
+line-height: 3rem;
+margin: 0 -0.04rem;
+width: 3.5rem;
+text-align: center;
+padding: 1.2rem 0 0;
 }
 
 }
