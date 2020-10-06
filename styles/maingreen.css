@@ -356,7 +356,7 @@ z-index:222;}
 .dish-2 div {text-align: right;}
 
 .menuitem img {vertical-align: middle;
-    filter: brightness(0) invert(1) sepia(1) saturate(2.5) hue-rotate(140deg) drop-shadow(2px 1px 0rem #034163); width:40px;
+    filter: brightness(0) invert(1) sepia(1) saturate(2.5) hue-rotate(140deg) drop-shadow(2px 1px 0rem #034163); width:40px; margin-bottom: 0.5rem;
    }
 
 .expandish {
