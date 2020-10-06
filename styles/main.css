@@ -161,7 +161,6 @@ filter:hue-rotate(0deg) saturate(1) brightness(2.5);
 
 .flexbox {
 display: flex;
-
 margin: 0 auto;
 }
 
@@ -252,10 +251,15 @@ width: 50px; text-align: unset;*/
 .dish-2 i, .dish-3 i {color:#2C1A23;}
 .pricex3 {left: 30%; margin: 0 auto; position:unset;}
 .address {font-family: 'M PLUS 1p', sans-serif;
- font-size: 15px; text-align: center; margin: 0 auto; line-height: 1.25rem; color:#FBBCBD;}
+ font-size: 14px; text-align: center; margin: 0 auto; line-height: 1.25rem; color:#FBBCBD;}
 .address i, .FINDUS i {color:#FBBCBD;}
 .lastline {border:none; text-align:center; margin-bottom: 0.5rem;}
-
+.pricemenu {margin: 1rem auto;
+    padding: 0.5rem;
+    width: 30%;
+    position: relative;
+    height: 12px;
+    line-height: 80%;}
 .dishnumber {position: relative;
     font-family: 'M PLUS 1p', sans-serif;
 

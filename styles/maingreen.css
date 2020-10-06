@@ -154,10 +154,13 @@ margin: 0 auto;
 justify-content: space-evenly;
 } 
 .preciolista {
-  flex: 0 0 80px;
-  text-align:right;
+flex: 0 0 20%!important;
+text-align:right;
 }
-
+#menuinfantil div, #menu2 div, #menu4 div, #extras div, #chimichurri div, #infusiones div, #cafespeciales .principal:not(.ultimalinea) {flex:1;}
+#sangria .principal, #vinocasa .principal {flex: 1 1 40%;}
+#sangria .preciolista, #vinocasa .preciolista {flex: 1 1 25%!important;} 
+ 
 .languecontainer {position:absolute;
 top:0;
 display: flex;
@@ -189,7 +192,7 @@ i {color: #e0ffff;}
 .topimage img {max-width:500px;}
 .principal {
 background: ;
-flex: 1;
+flex: 0 0 75%;
 font-family: 'M PLUS 1p', sans-serif;
 font-size:18px;
 padding: 5px 5px 2px 5px; border-bottom: 2px dotted #1E5B77;
@@ -248,11 +251,16 @@ width: 50px; text-align: unset;*/right: 0; font-weight: 500;
 .pricex3 {left: 30%; margin: 0 auto; position:unset;}
 .dish-3 i, .dish-2 i, .principal i, .FINDUS i {color:#1E5B77;}
 .address {font-family: 'M PLUS 1p', sans-serif;
- font-size: 15px; text-align: center; margin: 0 auto; line-height: 1.25rem;}
+ font-size: 14px; text-align: center; margin: 0 auto; line-height: 1.25rem;}
 .address i {color: #000000;}
 .address a {text-decoration:none; color:#000000;}
 .lastline {border:none; text-align:center; margin-bottom: 0.5rem;}
-
+.pricemenu {margin: 1rem auto;
+    padding: 0.5rem;
+    width: 30%;
+    position: relative;
+    height: 12px;
+    line-height: 80%!important;}
 .dishnumber {position: relative;
     font-family: 'M PLUS 1p', sans-serif;
 
