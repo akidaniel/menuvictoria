@@ -170,7 +170,7 @@ margin:2rem 0 1rem 0;
 width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; /*-moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px;*/}
-.menuitem {font-family: 'Euphoria Script', cursive; font-size: 3rem; 
+.menuitem {font-family: 'Euphoria Script', cursive; font-size: 2.8rem; 
 color: #e0ffff;
 text-align: center;
 margin: 0 -0.05rem -0.1rem;
