@@ -218,6 +218,7 @@ color:#1E5B77;
 	background: rgba(213,247,255,0.3);}
 .dish-2 img, .dish-3 img, dish-1 img {max-height: 100%; max-width: 100%; -webkit-filter: drop-shadow(5px 9px 5px rgba(1,40,45,0.6));}
 .dish-1 {width:99%;}
+.topdish {border-radius: 0 0 12px 12px;}
 .destacado {font-family: 'M PLUS 1p', sans-serif; margin:0.5rem 0.5rem 1rem;
 text-align:left;
 font-size:17px; font-weight: normal; text-align:center; line-height: 120%; color: #e0ffff; text-shadow: none;}
