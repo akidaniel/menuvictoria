@@ -414,6 +414,10 @@ a.FINDUS {text-decoration: none;}
 .expandish .LESa {display:flex;}	
 .expandish .LUKa, .expandish .LFRa, .expandish .CATa {display:none;}
 
+.LESa label, .CATa label, .LUKa label, .LFRa label {font-family: 'Gothic A1', sans-serif;
+top: -10px; position: absolute;
+line-height: 0%; font-size:12px; text-align:center; color:#803a30; font-weight:bold; min-width: 4rem;}
+
 .gluten, .huevo, .pescado, .mostaza, .cacahuete, .crustaceo, .frutoseco, .apio, .sesamo, .sulfito, .altramuz, .lacteo, .molusco, .soja {
 border: 0.15rem solid #ffffff;
 border-radius: 1.5rem;
