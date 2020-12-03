@@ -171,6 +171,8 @@ justify-content: space-evenly;
 .preciolista {
   flex: 0 0 80px;
   text-align:right;
+  font-size: 15px!important;
+    margin-top: 4px;
 }
 
 .languecontainer {position:absolute;
@@ -203,13 +205,23 @@ i {color: #e0ffff;}
 .topimage {padding: 0.5rem 0 0; background: none; line-height:none;}
 .topimage img {max-width:590px;}
 .principal {
-background: ;
 flex: 1;
 font-family: 'M PLUS 1p', sans-serif;
 font-size:18px;
-padding: 5px 5px 2px 5px; border-bottom: 2px dotted #1E5B77;
+padding: 2px 5px; border-bottom: 2px dotted #1E5B77;
 color:#1E5B77;
 }
+.principalb {
+flex: 1;
+font-family: 'M PLUS 1p', sans-serif;
+font-size:14px;
+padding: 0px 0px 5px 0px; 
+border-bottom: 2px dotted #1E5B77;
+color:#1E5B77;
+margin: 0px;
+}
+
+.principalplus {padding: 0px; border-bottom: none;}
 
 .ultimalinea {border:none}
 
