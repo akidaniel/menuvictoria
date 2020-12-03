@@ -93,19 +93,8 @@ $('.dish-2, .dish-3').mouseleave(function() {
 
 
 });
-//HIDINGMENU
-if (jQuery(window).width() < 900) {
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("cambiocontenido").style.bottom = "0rem";
-  } else {
-    document.getElementById("cambiocontenido").style.bottom = "-3.5rem";
-  }
-  prevScrollpos = currentScrollPos;
-}
-}
+
+
 //ALERGENOS
 $(document).ready(function() {
 

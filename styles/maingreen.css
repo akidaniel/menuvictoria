@@ -155,8 +155,10 @@ margin: 0 auto;
 justify-content: space-evenly;
 } 
 .preciolista {
-flex: 0 0 20%!important;
 text-align:right;
+font-size: 14px!important;
+font-weight: 500;
+margin-top:5px;
 }
 #menuinfantil div, #menu2 div, #menu4 div, #extras div, #chimichurri div, #infusiones div, #cafespeciales .principal:not(.ultimalinea) {flex:1;}
 #sangria .principal, #vinocasa .principal {flex: 1 1 40%;}
@@ -192,20 +194,33 @@ i {color: #e0ffff;}
 .topimage {margin: -2.5rem auto 0; text-align:center;}
 .topimage img {max-width:500px;}
 .principal {
-background: ;
-flex: 0 0 75%;
+flex: 1;
 font-family: 'M PLUS 1p', sans-serif;
 font-size:18px;
-padding: 5px 5px 2px 5px; border-bottom: 2px dotted #1E5B77;
+padding: 5px 5px 2px 5px; 
+border-bottom: 1px dotted #1E5B77;
 color:#1E5B77;
+font-weight: 500;
+letter-spacing: -0.03rem;
+
+}
+.principalb {
+/*flex: 1;
+font-family: 'M PLUS 1p', sans-serif; border-bottom: 2px dotted #1E5B77;
+color:#1E5B77;*/
+font-size:14px;
+padding: 0px 0px 5px 0px; 
+
+margin: 0px;
 }
 
+.principalplus {padding: 0px; border-bottom: none;}
 .ultimalinea {border:none}
 
 
 
-.dish-2 {text-align: center; margin: 0.1rem 0.05rem 0.05rem; width:49%; z-index:10;
-    padding: 0.5rem 0.5rem 1rem; -moz-border-radius: 12px;
+.dish-2 {text-align: center; width:49%; z-index:10; margin: 0.1rem 0.05rem 0.05rem; 
+   padding: 0.5rem 0.25rem 1rem; -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
     border-radius: 12px; 
 	-moz-box-shadow: 0 0 0pt 1.5pt #478088; 
@@ -221,7 +236,9 @@ color:#1E5B77;
 .dish-1 {width:99%;}
 .dish-1 img {height: 50%; width: 50%; -webkit-filter: drop-shadow(2px 6px 5px rgba(1,40,45,0.5));}
 
-.topdish {border-radius: 0 0 12px 12px;}
+.topdish {border-radius: 0 0 12px 12px; -moz-border-radius: 0 0 12px 12px;
+    -webkit-border-radius: 0 0 12px 12px;
+    border-radius: 0 0 12px 12px; margin-top: -7px;}
 .destacado {font-family: 'M PLUS 1p', sans-serif; margin:0.5rem 0.5rem 1rem;
 text-align:left;
 font-size:17px; font-weight: normal; text-align:center; line-height: 120%; color: #e0ffff; text-shadow: none;}
