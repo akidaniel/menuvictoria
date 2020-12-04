@@ -127,7 +127,7 @@ width: 2.25rem;
 	position: fixed;
 	z-index: 1500;
 	right: 0.5rem;
-	bottom: 0rem;
+	bottom: 0.5rem;
 	background: url(https://akidaniel.github.io/menuvictoria/imagenes/bt_top.png) no-repeat center 43%;
 	background-size: contain;
 }
