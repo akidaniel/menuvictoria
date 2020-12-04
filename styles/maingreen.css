@@ -128,7 +128,7 @@ width: 2.25rem;
 	z-index: 1500;
 	right: 0.5rem;
 	bottom: 0rem;
-	background: url(https://akidaniel.github.io/menucatalina/imagenes/bt_top.png) no-repeat center 43%;
+	background: url(https://akidaniel.github.io/menuvictoria/imagenes/bt_top.png) no-repeat center 43%;
 	background-size: contain;
 }
 
@@ -359,10 +359,10 @@ background-size:contain;
 cursor: pointer;
 margin: 0 2rem;
 z-index:222;}
-.UK {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/uk.png);}
-.ES {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/spain.png);}
-.FR {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/france.png);}
-.CT {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/catalan.png);}
+.UK {background-image: url(https://akidaniel.github.io/menuvictoria/imagenes/uk.png);}
+.ES {background-image: url(https://akidaniel.github.io/menuvictoria/imagenes/spain.png);}
+.FR {background-image: url(https://akidaniel.github.io/menuvictoria/imagenes/france.png);}
+.CT {background-image: url(https://akidaniel.github.io/menuvictoria/imagenes/catalan.png);}
 
 .platos, .vinos, .postres {display: block;
 	width: 5rem;
@@ -372,9 +372,9 @@ z-index:222;}
 	z-index: 999;
 	cursor: pointer;
 }
-.platos {background: url(https://akidaniel.github.io/menuvictoria/imagenes/icomenu_rojo.png) no-repeat center 43%; background-size: contain;}
-.vinos {background: url(https://akidaniel.github.io/menucatalina/imagenes/wine_icon.png) no-repeat center 43%; background-size: contain;}
-.postres {background: url(https://akidaniel.github.io/menucatalina/imagenes/dess_icon.png) no-repeat center 43%; background-size: contain;}
+.platos {background: url(https://akidaniel.github.io/menuvictoria/imagenes/bt_comida.png) no-repeat center 43%; background-size: contain;}
+.vinos {background: url(https://akidaniel.github.io/menuvictoria/imagenes/bt_bebida.png) no-repeat center 43%; background-size: contain;}
+.postres {background: url(https://akidaniel.github.io/menuvictoria/imagenes/dess_icon.png) no-repeat center 43%; background-size: contain;}
 
 .dish-2 div {text-align: right;}
 
