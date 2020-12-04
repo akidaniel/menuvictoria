@@ -239,6 +239,8 @@ margin: 0px;
 .topdish {border-radius: 0 0 12px 12px; -moz-border-radius: 0 0 12px 12px;
     -webkit-border-radius: 0 0 12px 12px;
     border-radius: 0 0 12px 12px; margin-top: -7px;}
+	
+.topdishsinlista {margin-top: 0px;} 	
 .destacado {font-family: 'M PLUS 1p', sans-serif; margin:0.5rem 0.5rem 1rem;
 text-align:left;
 font-size:17px; font-weight: normal; text-align:center; line-height: 120%; color: #e0ffff; text-shadow: none;}
