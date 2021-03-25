@@ -46,7 +46,7 @@ background: linear-gradient(to bottom, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
-  text-align: center;
+  text-align: center!important;
 }
 
 /*TEXTOS*/
@@ -209,16 +209,15 @@ letter-spacing: -0.03rem;
 font-family: 'M PLUS 1p', sans-serif; border-bottom: 2px dotted #1E5B77;
 color:#1E5B77;*/
 font-size:14px;
-padding: 0px 0px 5px 0px; 
+padding: 0px 0px 5px 5px; 
 
 margin: 0px;
 }
 
-.principalplus {padding: 0px; border-bottom: none;}
+.principalplus {padding: 0px 0px 0px 5px; border-bottom: none;}
 .ultimalinea {border:none}
 
-
-
+.licor {flex: 0 0 28%;}
 .dish-2 {text-align: center; width:49%; z-index:10; margin: 0.1rem 0.05rem 0.05rem; 
    padding: 0.5rem 0.25rem 1rem; -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
