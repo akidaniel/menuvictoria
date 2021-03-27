@@ -24,19 +24,19 @@ text-align:left;
 
 .pagina {box-sizing:border-box;
 padding:0;
-background:url(https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagris.jpg);
+background:url(https://qr-victoria.neocities.org/imagenes/fondovictoriagris.jpg);
 
-background: -moz-linear-gradient(top, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
+background: -moz-linear-gradient(top, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://qr-victoria.neocities.org/imagenes/fondovictoriagri.jpg');
 
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(4,80,90,0.8)), color-stop(8%, rgba(146,200,213,0.5))), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(4,80,90,0.8)), color-stop(8%, rgba(146,200,213,0.5))), url('https://qr-victoria.neocities.org/imagenes/fondovictoriagri.jpg');
 
-background: -webkit-linear-gradient(top, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
+background: -webkit-linear-gradient(top, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://qr-victoria.neocities.org/imagenes/fondovictoriagri.jpg');
 
-background: -o-linear-gradient(top, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
+background: -o-linear-gradient(top, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://qr-victoria.neocities.org/imagenes/fondovictoriagri.jpg');
 
-background: -ms-linear-gradient(top, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
+background: -ms-linear-gradient(top, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://qr-victoria.neocities.org/imagenes/fondovictoriagri.jpg');
 
-background: linear-gradient(to bottom, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://akidaniel.github.io/menuvictoria/imagenes/fondovictoriagri.jpg');
+background: linear-gradient(to bottom, rgba(4,80,90,0.8) 0%, rgba(146,200,213,0.5) 6%), url('https://qr-victoria.neocities.org/imagenes/fondovictoriagri.jpg');
 
 }
  
@@ -128,7 +128,7 @@ width: 2.25rem;
 	z-index: 1500;
 	right: 0.5rem;
 	bottom: 0.5rem;
-	background: url(https://akidaniel.github.io/menuvictoria/imagenes/bt_top.png) no-repeat center 43%;
+	background: url(https://qr-victoria.neocities.org/imagenes/bt_top.png) no-repeat center 43%;
 	background-size: contain;
 }
 
@@ -358,10 +358,10 @@ background-size:contain;
 cursor: pointer;
 margin: 0 2rem;
 z-index:222;}
-.UK {background-image: url(https://akidaniel.github.io/menuvictoria/imagenes/uk.png);}
-.ES {background-image: url(https://akidaniel.github.io/menuvictoria/imagenes/spain.png);}
-.FR {background-image: url(https://akidaniel.github.io/menuvictoria/imagenes/france.png);}
-.CT {background-image: url(https://akidaniel.github.io/menuvictoria/imagenes/catalan.png);}
+.UK {background-image: url(https://qr-victoria.neocities.org/imagenes/uk.png);}
+.ES {background-image: url(https://qr-victoria.neocities.org/imagenes/spain.png);}
+.FR {background-image: url(https://qr-victoria.neocities.org/imagenes/france.png);}
+.CT {background-image: url(https://qr-victoria.neocities.org/imagenes/catalan.png);}
 
 .platos, .vinos, .postres {display: block;
 	width: 5rem;
@@ -371,9 +371,9 @@ z-index:222;}
 	z-index: 999;
 	cursor: pointer;
 }
-.platos {background: url(https://akidaniel.github.io/menuvictoria/imagenes/bt_comida.png) no-repeat center 43%; background-size: contain;}
-.vinos {background: url(https://akidaniel.github.io/menuvictoria/imagenes/bt_bebida.png) no-repeat center 43%; background-size: contain;}
-.postres {background: url(https://akidaniel.github.io/menuvictoria/imagenes/dess_icon.png) no-repeat center 43%; background-size: contain;}
+.platos {background: url(https://qr-victoria.neocities.org/imagenes/bt_comida.png) no-repeat center 43%; background-size: contain;}
+.vinos {background: url(https://qr-victoria.neocities.org/imagenes/bt_bebida.png) no-repeat center 43%; background-size: contain;}
+.postres {background: url(https://qr-victoria.neocities.org/imagenes/dess_icon.png) no-repeat center 43%; background-size: contain;}
 
 .dish-2 div {text-align: right;}
 
