@@ -2,9 +2,9 @@
 
 //FAVICON
 var icons = [
-			"https://akidaniel.github.io/menucatalina/imagenes/favicons/apple-icon-180x180.png",
-                "https://akidaniel.github.io/menucatalina/imagenes/favicons/favicon-32x32.png",
-                "https://akidaniel.github.io/menucatalina/imagenes/favicons/favicon.ico",
+			"https://qr-victoria.neocities.org/imagenes/apple-icon-180x180.png",
+                "https://qr-victoria.neocities.org/imagenes/favicon-32x32.png",
+                "https://qr-victoria.neocities.org/imagenes/favicon.ico",
             ];
 
             var idx = localStorage["favicon"];
